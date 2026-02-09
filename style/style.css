@@ -1,0 +1,153 @@
+/* RESET DASAR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* SECTION NAV */
+#nav {
+  background-color: #ee4d2d;
+  width: 100%;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* NAVBAR UTAMA */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* kiri & kanan */
+  align-items: center;
+  padding: 8px 0;
+}
+
+/* UL UMUM */
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+}
+
+/* LINK */
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* HOVER */
+.navbar ul li a:hover {
+  opacity: 0.8;
+}
+
+/* ICON SOSIAL */
+.icon a {
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+/* LOGIN & REGISTER */
+.loginregister {
+  display: flex;
+  gap: 5px;
+}
+
+/* LOGO SHOPEE */
+.shopee {
+  width: 140px;
+  height: auto;
+  filter: brightness(0) invert(1);
+}
+/* NAVBAR BAWAH */
+.nav2 {
+  display: flex;
+  align-items: center; /* WAJIB */
+  gap: 30px;
+  padding: 15px 0;
+}
+
+/* SVG LOGO SHOPEE */
+.shopee {
+  width: 140px;
+  height: auto;
+
+  display: block; /* 🔥 PALING PENTING */
+  flex-shrink: 0; /* biar ga ketekan */
+}
+
+/* SEARCH */
+.search {
+  margin-left: 120px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 800px;
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* INPUT */
+.search input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 12px;
+  font-size: 14px;
+}
+
+/* BUTTON */
+.search button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 100%;
+  border: none;
+  background: #fb5533;
+  cursor: pointer;
+}
+
+/* ICON SEARCH */
+.search button svg {
+  width: 18px;
+  height: 18px;
+  stroke: white;
+  fill: none;
+  stroke-width: 2;
+}
+
+.troli {
+  width: 28px;
+  height: auto;
+  filter: brightness(0) invert(1);
+}
+
+/* nav3*/
+
+.nav3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.nav3 ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+}
+
+.nav3 ul li {
+  color: white;
+  font-size: 12px;
+  filter: brightness(95%);
+}
